@@ -1,0 +1,15 @@
+.venv/
+.streamlit/secrets.toml
+.env
+generated/
+data/
+*.csv
+*.db
+*.sqlite*
+*.zip
+__pycache__/
+*.pyc
+.DS_Store
+__MACOSX/
+kaggle.json
+access_token

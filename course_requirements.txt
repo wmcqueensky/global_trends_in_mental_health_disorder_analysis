@@ -1,0 +1,238 @@
+Schedule of the Course "Python and SQL: intro"
+
+ 
+  	Friday 	Thursday 	Topic 	Short Test?
+1 	Friday, October 2, 2026 	Thursday, October 8, 2026 	Course intro; Why Python?; Installing Python, Jupyter, VS Code; Calculator use; Data types (int, float, str, bool); Libraries; Importing/saving files 	 
+2 	Friday, October 9, 2026 	Thursday, October 15, 2026 	Data types Data Structures; Libraries; 	 
+3 	Friday, October 16, 2026 	Thursday, October 22, 2026 	If statements – conditions, comparisons, nesting 	 
+4 	Friday, October 23, 2026 	Thursday, October 29, 2026 	 For loops – iteration over lists/ranges, nesting, break/continue; introduction to Pandas 	Short test
+5 	Friday, October 30, 2026 	Thursday, November 5, 2026 	Pandas – reading/writing, DataFrames, indexing, filtering, aggregation 	 
+6 	Friday, November 6, 2026 	Thursday, November 12, 2026 	
+
+Functions – definitions, parameters, return values, scope
+	Short test
+7 	Friday, November 13, 2026 	Thursday, November 19, 2026 	NumPy – arrays, vectors, matrices, broadcasting, map 	 
+8 	Friday, November 20, 2026 	Thursday, November 26, 2026 	OOP – classes, objects, methods, attributes, inheritance 	Short test
+9 	Friday, November 27, 2026 	Thursday, December 3, 2026 	Streamlit – dashboards, interactive apps, deployment 	 
+10 	Friday, December 4, 2026 	Thursday, December 10, 2026 	SQL – queries, filtering, joins, aggregations 	Short test
+11 	Friday, December 11, 2026 	recording to be distibuted from firday group
+(Thursday group has one less meeting this semester) 	SQL + Python – connecting DBs, queries in Pandas 	 
+12 	Friday, December 18, 2026 	
+
+recording to be distibuted from firday group
+In connection with the Faculty Christmas Party, "Dean’s hours" (excused absence from classes) are granted on December 17, 2026, from 3:00 PM to 6:00 PM.
+
+If group at 18:15 wants classes please let me know. I can come then.
+https://www.wne.uw.edu.pl/application/files/3617/8937/8639/2026-09-11_Z10_organizacja_semestru_zimowego.pdf
+	Visualisation – Seaborn and Matplotlib plots, customization 	 
+  	CHRISTMAS BREAK: 21.12.2026 – 06.01.2027; SUBMISSION DEADLINE 06.01.2027 23:59 	 
+13 	Friday, January 8, 2027 	Thursday, January 7, 2027 	Oral presentation 	 
+14 	Friday, January 15, 2027 	Thursday, January 14, 2027 	Oral presentation 	 
+15 	Friday, January 22, 2027 	Thursday, January 21, 2027 	ABCD exam 	 
+How to Pass this course?
+
+#
+	
+
+Assessment Component
+	
+
+Weight
+	
+
+Description / Details
+
+1
+	
+
+Short Tests
+	
+
+20%
+	
+
+4 google form tests (Weeks 4, 6, 8, 10); Best 3 out of 4 count.
+
+2
+	
+
+Final Exam
+	
+
+30%
+	
+
+90 min, 25 ABCD questions on Moodle; USOS group strict.
+
+3
+	
+
+Individual Project
+	
+
+20%
+	
+
+Moodle submission by Jan 06, 2027 at 23:59; strictly individual.
+
+4
+	
+
+Oral Defense
+	
+
+30%
+	
+
+Conducted in pairs on Jan 7–8 or Jan 14–15; 3 questions/student.
+
+ 
+Passing Criteria & Evaluation Policy
+
+    Overall Passing Threshold: You need an overall cumulative score of at least 50% across all weighted components to pass the course.
+
+    Cumulative Grading (No Minimum Per Component): You do not need to pass each component individually (e.g., there is no requirement to score 50% on short tests specifically).
+
+    Flexibility: It is entirely possible to achieve a positive final grade even if you perform poorly on or skip short tests, as long as your total score across all components equals or exceeds 50%.
+
+    Exception: The only mandatory non-numerical requirement is submitting the Individual Project on Moodle (No Moodle submission = automatic fail).
+    Attendance: Class attendance is not mandatory. Short tests, however, take place in class, so you can only earn those points by being there.
+
+Percentage 	Grade Code 	Grade
+0–50% 	fail 	2
+51–60% 	pass 	3
+61–70% 	pass+ 	3+
+71–80% 	good 	4
+81–90% 	good+ 	4+
+91–100% 	very good 	5
+
+1.Bi-Weekly Short Tests (20%) 15 minutes
+
+a. 4 google forms tests (Weeks 4, 6, 8, 10) - look at the schedule
+
+b. Format: Google forms test consisting of 5 multiple-choice questions (A–D).
+
+1 correct answer per question
+
+2 points per correct answer (10 points total)
+
+Content: Mix of code questions and lecture slides covering the previous two weeks.
+
+Attendance Policy: You are allowed to miss 1 short test without penalty (best 3 out of 4 count).
+
+When and where: Tests are taken on google forms sent via email by dr Ewa Weychert, during the last 15 minutes of the session. For example, if your USOS group meets on Friday 8:00–9:30, the test runs 9:15–9:30. Make sure you are able to take the test online at the end of class in test weeks (4, 6, 8, 10).
+
+ 2. Final Exam (30%)
+
+ 1.     Format: 25 multiple-choice questions (ABCD, single correct answer).
+
+2.     Duration: 90 minutes.
+
+3.     Constraint: Please come to the exam at the group you are assigned to in USOS. Student IDs will be checked prior to entering the room.
+
+4.     No Group Swaps: Strictly prohibited. Exam questions will vary by group.
+
+3. Final Individual Project (20%)
+
+⏱ Deadline January 06, 2027 by 23:59 via Moodle 
+
+1.     Warning: I will not check work send via email
+
+2.     Individual work only
+
+3.     Problem Formulation: Choose a real-world dataset (Kaggle, open portals); define a clear research goal or business problem
+
+4.     Data Wrangling (Pandas/NumPy): Clean raw data, handle missing values/types
+
+5.     perform EDA
+
+6.     Custom Logic: Write modular Python functions with explicit control flow (if/else, loops) and custom business logic
+
+7.     SQL Integration: Load cleaned data into a relational database (e.g., SQLite); write queries, multi-table JOINs, and aggregations
+
+8.     Visualization: Produce 5 to 10 distinct Seaborn/Matplotlib plots covering distributions categorical views, and trends
+
+9.     Presentation Layer: Build an interactive Streamlit dashboard with user filters and dynamic chart rendering
+
+Critical Rules
+
+    No Moodle Submission = Automatic Failure: Failing to submit on Moodle results in an automatic failure for the course.
+    Moodle Only: Submissions outside of Moodle (e.g., via email or late upload) will not be accepted.
+
+File Formatting Requirements
+
+    Format: Single .zip archive only.
+    Content: Include ONLY source code files (e.g., .py or .ipynb).
+    NO DATASETS: Do not include raw data or database files in the archive. Datasets are usually too large and exceed Moodle size limits.
+
+Submission Workflow
+
+[ Code Files ] → [ Zip Archive ] → [ Upload to Moodle ]
+
+Required .ZIP File Structure (Code Only)
+
+README.md — Must contain:
+
+a. Direct link to the external dataset (e.g., Kaggle, Open Data portal).
+
+b. Recommended execution order for reading and running scripts.
+
+c. Brief description of what each file does.
+
+d. Instructions to run the Streamlit app.
+
+    App.py (or main.py) — Streamlit presentation layer.
+    Scripts/ or source files — Data wrangling, custom logic functions, and SQL setup scripts.
+    requirements.txt — List of required Python packages (e.g., pandas, streamlit, seaborn).
+
+Recommended .zip Naming Conventions
+
+    Standard Format: [Surname]_[Firstname]_[StudentNumber]_Project.zip (Example: Smith_John_123456_Project.zip)
+
+    Avoid Spaces & Special Characters: Use underscores (_) or hyphens (-) instead of spaces, and stick to standard Latin characters.
+
+4. Final Oral Examination (30%)
+
+    Exam Dates: Conducted during class sessions on Jan 7–8, 2027 and Jan 14–15, 2027.
+    Scheduling: You will be assigned in alphabetical order. Exact time slots sent via email prior to exam dates.
+    Format: Conducted in pairs (to provide a peer witness). A second professor will also be present as a witness.
+    Assessment: Each student will independently answer 3 questions covering submitted project implementation - I will mark piece of code from your project and ask you a question on core Python, SQL, and analytical course concepts from classes.
+
+Deployment: Your Streamlit dashboard must be deployed on Streamlit Community Cloud. Include the public link to the app in your README.md.
+
+Use of AI tools: You may use AI tools (ChatGPT, Copilot, etc.). However, you must understand every piece of code in your project. During the oral defense I will point to any part of your code and ask you to explain it.
+Resit Requirements & Schedule
+
+    Individual Project Resit:
+
+        Deadline: February 25, 2027 by 23:59
+
+        Submission Platform: Directly via the designated Moodle link (no email submissions accepted).
+
+        Requirements: Same formatting, directory structure, and rule guidelines apply (code-only .zip file, Kaggle/data link in README.md, no datasets in the archive).
+
+    Oral Examination Resit:
+
+        Date: February 26, 2027
+
+        Format: Questions on your updated project code and core course concepts.
+
+    Written Exam Resit:
+
+        Date & Time: To be established (exact time slot and room assignment will be communicated via USOS / Moodle announcement prior to the resit session).
+        Your short test results from the semester carry over to the resit. They cannot be retaken.
+
+    Important Note: Submitting the Individual Project on Moodle remains a mandatory requirement to pass the course during the resit session. Ensure all code files are properly organized in a single .zip archive before uploading.
+
+Absence from an examination, or from an assessment equivalent to an examination, held during the examination session must be excused by the Vice-Dean for Student Affairs. In the case of illness, submit the medical certificate within 7 working days of the end date of the medical leave specified in the certificate (§ 35(7) of the Rules and Regulations of Study). Missed short tests cannot be excused or retaken; only the best 3 of 4 count.
+
+See  Rules and Regulations of Study: https://monitor.uw.edu.pl/Lists/Uchway/Attachments/4930/M.2019.186.U.441.pdf
+
+Visa delays
+
+If you cannot attend the first weeks of classes because of visa or travel issues, you can still pass the course.
+
+    Materials: All lecture materials and code are on Moodle, so you can follow the topics from Week 1 on your own. Class attendance is not mandatory.
+    Short tests: These are taken in class, so you will miss any test held before you arrive. Only the best 3 of 4 count, so one missed test costs you nothing. Even if you miss more, you can still pass: there is no minimum score per component, only 50% overall.
+    Project: The Individual Project is submitted via Moodle and can be prepared from anywhere.
+    In person: You must be in Warsaw for the Oral Defense (7–8 or 14–15 January 2027) and the Final Exam (21–22 January 2027).
