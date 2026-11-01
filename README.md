@@ -138,8 +138,30 @@ Keep any token outside this project. A manual CSV download is also supported:
 python data_preparation.py --csv "$HOME/Downloads/Mental health Depression disorder Data.csv"
 ```
 
-Do not pass the Kaggle webpage URL to `pandas.read_csv`; it is HTML, not CSV.
-The local-file mode records that its version has not been independently verified.
+`python data_preparation.py` is the normal command. Use the steps below only when
+that command downloads a file and then fails with `UnicodeDecodeError` while reading
+it as UTF-8. KaggleHub can save a ZIP archive under the CSV filename. The script
+expects the CSV text inside that archive, so unpack it and pass the real CSV:
+
+```bash
+python -c "
+import zipfile
+from pathlib import Path
+src = Path.home() / '.cache/kagglehub/datasets/thedevastator/uncover-global-trends-in-mental-health-disorder/versions/2/Mental health Depression disorder Data.csv'
+dst = Path.home() / 'Downloads' / 'Mental health Depression disorder Data.csv'
+with zipfile.ZipFile(src) as z:
+    dst.write_bytes(z.read('Mental health Depression disorder Data.csv'))
+print(dst)
+"
+python data_preparation.py --csv "$HOME/Downloads/Mental health Depression disorder Data.csv"
+```
+
+Confirm the cached path with the `Downloading to ...` line if it differs. The
+unpacked file is still the version 2 CSV from KaggleHub. `--csv` records that its
+version has not been independently verified. Do not pass the Kaggle webpage URL to
+`pandas.read_csv`; it is HTML, not CSV. Do not load the whole file with
+`kagglehub.load_dataset`: that still downloads the file, then reads every pasted
+section, including the later population tables.
 
 Preparation prints the cleaning report. It also:
 - Trims entity names/codes and converts years/measurements to numbers.
@@ -486,6 +508,7 @@ the working public Streamlit URL before the final archive is created.
 | Missing Python module or skipped tests | Activate `.venv`, then install requirements with that environment's `python -m pip`. |
 | HTTPS certificate error after a python.org Mac installation | Run the installer's `Install Certificates.command`; keep certificate validation enabled. |
 | Kaggle authentication/download failure | Accept dataset terms, configure KaggleHub privately, or use `--csv` with the original file. |
+| `UnicodeDecodeError` while reading the KaggleHub file | The cache file is a ZIP named like the CSV. Unpack it and rerun with `--csv`, as in Step 4. |
 | Missing generated file | Run preparation before analysis or database setup. |
 | Invalid database setting or TOML syntax | Check section names, placeholders, quote escaping, and the private file's exact location. |
 | Authentication failed / tenant not found | Recheck the exact session-pooler host, role.PROJECT_REF username, role password, and project status. |
